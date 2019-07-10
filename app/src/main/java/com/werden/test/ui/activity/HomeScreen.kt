@@ -21,6 +21,7 @@ class HomeScreen : AppCompatActivity(), GeneralMethods {
         exercises.add("JSON")
 
         setRecycler()
+
     }
 
     override fun setRecycler() {
