@@ -7,7 +7,7 @@
         tools:context=".ui.activity.HomeScreen">
 
     <android.support.v7.widget.RecyclerView
-            android:id="@+id/recyclerFreelance"
+            android:id="@+id/recyclerHome"
             android:layout_width="match_parent"
             android:scrollbars="vertical"
             android:layout_height="match_parent">
