@@ -2,4 +2,6 @@
     <string name="app_name">Test</string>
     <string name="description_icon">Icon</string>
     <string name="activity_home">Home</string>
+    <string name="activity_JSON">Json</string>
+    <string name="base_path">https://jsonplaceholder.typicode.com/todos/</string>
 </resources>

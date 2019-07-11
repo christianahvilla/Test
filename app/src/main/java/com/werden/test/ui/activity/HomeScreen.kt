@@ -21,7 +21,10 @@ class HomeScreen : AppCompatActivity(), GeneralMethods {
         exercises.add("JSON")
 
         setRecycler()
+    }
 
+    override fun getData() {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
     override fun setRecycler() {
@@ -31,4 +34,5 @@ class HomeScreen : AppCompatActivity(), GeneralMethods {
         adapter = HomeAdapter(exercises,this@HomeScreen)
         recyclerHome.adapter = adapter
     }
+
 }
