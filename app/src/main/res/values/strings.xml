@@ -3,4 +3,7 @@
     <string name="description_icon">Icon</string>
     <string name="valid_input">1 2 3 4 5</string>
     <string name="jugar">Jugar</string>
+    <string name="activity_home">Home</string>
+    <string name="activity_JSON">Json</string>
+    <string name="base_path">https://jsonplaceholder.typicode.com/todos/</string>
 </resources>

@@ -16,7 +16,7 @@
                 android:id="@+id/icon_home"
                 android:layout_width="@dimen/dimen_64sp"
                 android:layout_height="@dimen/dimen_64sp"
-                android:background="@drawable/circle_background_green"
+                android:background="@drawable/circle_background_deep_purple"
                 android:src="@drawable/ic_assignment_turned_in_white_24dp"
                 android:padding="@dimen/dimen_10sp"
                 android:contentDescription="@string/description_icon"/>
