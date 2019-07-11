@@ -25,6 +25,8 @@
                     android:layout_marginRight="@dimen/dimen_32sp"
                     android:hint="@string/valid_input"
                     android:textSize="@dimen/dimen_16sp"
+                    android:digits="123456789 "
+                    android:inputType="phone"
                     android:theme="@style/fields"/>
         </android.support.design.widget.TextInputLayout>
 

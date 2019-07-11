@@ -81,10 +81,8 @@ class Obstacle : AppCompatActivity() {
     private fun validate(): Boolean{
         val myInput = input.text.toString()
 
-        val regex = "^(([0-9]+)(\\s?[0-9]+)*)".toRegex()
-
         array = myInput.split(" ".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
-        return array.isEmpty() && regex.matches(myInput)
+        return array.isEmpty()
     }
 
 
