@@ -11,8 +11,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import com.werden.test.R
 import com.werden.test.ui.activity.JsonScreen
-
-
+import com.werden.test.ui.activity.Obstacle
 
 
 class HomeAdapter(private var execises: ArrayList<String>, private val context: Context):  RecyclerView.Adapter<ViewHolderHome>(){
@@ -43,11 +42,10 @@ class HomeAdapter(private var execises: ArrayList<String>, private val context: 
 
         when(option){
             "Obstaculos" -> {
-
+                intent = Intent(context.applicationContext, Obstacle::class.java)
             }
             "JSON" -> {
                 intent = Intent(context.applicationContext, JsonScreen::class.java)
-                context.startActivity(intent)
             }
         }
 
