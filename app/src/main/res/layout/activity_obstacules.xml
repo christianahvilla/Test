@@ -21,9 +21,7 @@
                 android:layout_marginLeft="@dimen/dimen_32sp"
                 android:layout_marginRight="@dimen/dimen_32sp"
                 android:hint="@string/valid_input"
-                android:maxLength="10"
                 android:singleLine="true"
-                android:inputType="number"
                 android:textSize="@dimen/dimen_16sp"
         />
     </android.support.design.widget.TextInputLayout>

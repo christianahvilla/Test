@@ -39,7 +39,7 @@
                 android:name=".ui.activity.Obstacle"
                 android:configChanges="orientation"
                 android:parentActivityName=".ui.activity.HomeScreen"
-                android:label="@string/activity_JSON">
+                android:label="@string/Obstaculos">
         </activity> 
     </application>
 
