@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          xmlns:tools="http://schemas.android.com/tools" package="com.werden.test">
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.werden.test">
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
+            android:name=".api.BackendVolley"
             android:allowBackup="true"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/app_name"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
-            android:theme="@style/AppTheme" tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".ui.activity.HomeScreen">
-        </activity>
+            android:theme="@style/AppTheme"
+            tools:ignore="AllowBackup,GoogleAppIndexingWarning">
         <activity
                 android:name=".ui.activity.SplashScreen"
                 android:screenOrientation="portrait"
@@ -22,6 +23,17 @@
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+        <activity
+                android:name=".ui.activity.HomeScreen"
+                android:configChanges="orientation"
+                android:label="@string/activity_home">
+        </activity>
+        <activity
+                android:name=".ui.activity.JsonScreen"
+                android:configChanges="orientation"
+                android:parentActivityName=".ui.activity.HomeScreen"
+                android:label="@string/activity_JSON">
         </activity>
     </application>
 

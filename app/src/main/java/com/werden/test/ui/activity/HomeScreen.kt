@@ -23,6 +23,10 @@ class HomeScreen : AppCompatActivity(), GeneralMethods {
         setRecycler()
     }
 
+    override fun getData() {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
     override fun setRecycler() {
         val lim = LinearLayoutManager(this)
         lim.orientation = LinearLayoutManager.VERTICAL
@@ -30,4 +34,5 @@ class HomeScreen : AppCompatActivity(), GeneralMethods {
         adapter = HomeAdapter(exercises,this@HomeScreen)
         recyclerHome.adapter = adapter
     }
+
 }
