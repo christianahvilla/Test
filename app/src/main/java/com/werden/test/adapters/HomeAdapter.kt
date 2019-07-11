@@ -43,11 +43,9 @@ class HomeAdapter(private var execises: ArrayList<String>, private val context: 
         when(option){
             "Obstaculos" -> {
                 intent = Intent(context.applicationContext, Obstacle::class.java)
-                context.startActivity(intent)
             }
             "JSON" -> {
                 intent = Intent(context.applicationContext, JsonScreen::class.java)
-                context.startActivity(intent)
             }
         }
 
